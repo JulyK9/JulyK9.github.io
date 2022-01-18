@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "const, let, var"
+title:  "[JS] 2022-01-18"
 ---
 
 # const, let, var 의 차이와 쓰임
@@ -28,3 +28,25 @@ vscode
 console
 
 ![image](https://user-images.githubusercontent.com/97942837/149937328-27c13fa4-716a-4a04-9c4d-ab1dcc2e5460.png)
+
+
+
+# true, false, null, undefined
+
+[정리]
+- ture : 켜짐 1
+- false : 꺼짐 0
+- null : 비어있음 nothing
+- undefined : variable이 메모리에 만들어졌고 인지하고 있지만 값이 없는 것
+
+
+[예시]
+
+vscode
+
+![image](https://user-images.githubusercontent.com/97942837/149940005-342fe9e5-3676-4856-b889-b7639c2d33cf.png)
+
+
+console
+
+![image](https://user-images.githubusercontent.com/97942837/149940110-079701b9-90ce-49af-b322-562755d265e8.png)
