@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "[JS] 2022-01-18"
 ---
 
