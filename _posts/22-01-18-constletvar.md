@@ -31,7 +31,7 @@ console
 
 
 
-# true, false, null, undefined
+# Booleans : true, false, null, undefined
 
 [정리]
 - ture : 켜짐 1
@@ -50,3 +50,48 @@ vscode
 console
 
 ![image](https://user-images.githubusercontent.com/97942837/149940110-079701b9-90ce-49af-b322-562755d265e8.png)
+
+
+# Array
+ - 값을 리스트로 정리하는 것(살 것들, 할 일들..)
+ - 유사한 개념의 범주에 있는 것들을 그룹화시키고 인덱스를 부여해서 자리값을 주는 걸로 보임
+ - 대괄호 [ ] 를 사용하고 , 쉼표로 구분
+ - 그룹안에 데이터 값을 추가할 수 있음 push
+ - array 안에 접근해서 elements를 받아오기 (인덱스는 0부터 시작)
+ - 사용자들의 할일 목록을 입력, 추가해서 불러오는 것에 활용할 수 있음
+
+
+[예시]
+
+vscode
+
+![image](https://user-images.githubusercontent.com/97942837/149954578-3f642ac9-099c-481f-88a4-084e2e9c1058.png)
+
+console
+
+![image](https://user-images.githubusercontent.com/97942837/149954645-74c250e0-a909-4779-81fd-60065a59f64b.png)
+
+
+# Objects
+- 리스트화 해서 정리하기 어려운 것들
+- 어떤 객체가 갖고있는 하위범주의 각각의 속성에 따르는 데이터를 정리하는 경우를 생각
+- 예) 캐릭터의 이름과 다양한 속성과 능력치들
+- 중괄호 { }로 작성, : 로 정의, 쉼표로 속성들 구분
+- 속성 추가도 가능
+
+
+[예시]
+
+vscode
+
+![image](https://user-images.githubusercontent.com/97942837/149960622-167696f0-cf0b-4246-913f-0106e7127041.png)
+
+
+console
+
+![image](https://user-images.githubusercontent.com/97942837/149960698-546b100b-56d1-4617-bd60-d9415cb92599.png)
+
+
+※ const 로 정의했는데 값이 업데이트 되는 이유?
+  - constant 전체를 하나의 값으로 업데이트 할때 에러가 발생됨
+  - constant 안의 무언가를 업데이트 할때는 문제 없음
